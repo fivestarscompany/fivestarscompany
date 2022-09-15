@@ -1,0 +1,266 @@
+* {
+  font-family: montserrat;
+}
+
+body {
+background-color:white;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+carousel-caption {
+  bottom: 220px;
+  z-index: 2;
+}
+.carousel-caption h3 {
+  color: crimson;
+  background-color: wheat;
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p {
+  color: black;
+  background-color: beige;
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.carousel-inner ::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0, 7);
+  z-index: 1;
+}
+.navbar-nav a {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.navbar-nav a:hover {
+  color: gold;
+  font-size: 20px;
+}
+.navbar-light .navbar-brand {
+  color: coral;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: gold;
+}
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: #2c3e50 !important;
+}
+.navbar-toggler {
+  color: gold;
+  background-color: bisque;
+}
+.w-100 {
+  height: 100vh;
+}
+
+/* asas section */
+.asas {
+  background-color:  #2c3e50;
+  margin-top: 10px;
+  
+  }
+  .asas .container p{
+    color: white;
+    font-size: 18px;
+    padding-right: 30px;
+  }
+.asas h2{
+  color:red;
+  padding-top: 20px;
+}
+/* end asas */
+/* services */
+.services h3{
+  color: crimson;
+}
+.services p{
+  font-size: 18px;
+}
+
+.services .card-body i{
+font-size: 50px;
+}
+/* end services */
+
+/* shamel */
+.shamel-text h2{
+  color: crimson;
+}
+
+.shamel-text p{
+  color: white;
+  font-size: 18px;
+}
+/* end shamel */
+
+.photo p{
+  font-size: 18px;
+}
+
+.contact i{
+font-size: 50px;
+color: wheat;
+
+}
+.contact h1{
+  color: gold;
+}
+ .container{
+  background-color: #2c3e50;
+}
+.wansh .card{
+  box-shadow: 15px 15px 40px  #2c3e505b ;
+
+}
+
+h3{
+  color: crimson;
+}
+.photo .card{
+  box-shadow: 15px 15px 40px #2c3e505b;
+
+}
+
+
+
+
+
+
+
+
+.btn{
+    background-color: gold;
+}
+.btn:hover{
+    color: white;
+    background-color:red ;
+
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:crimson; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#1ABC9C; 
+}
+
+
+
+
+
+/* photo */
+
+.img-photo{
+  padding: 50px;
+  background-color:grey;
+  min-height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+ 
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.4);
+
+  align-items: center;
+}
+
+.card{
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+/*===responsive css  ===*/
+@media screen and(min-width:768px) and (max-width:991px) {
+    .carousel-caption{
+        bottom: 370px;
+    }
+    .carousel-caption p{
+        width: 100%;
+    }
+    .card{
+margin-bottom: 40px;
+    }
+    .img-area img{
+      width: 100%;
+    }
+  }
+
+@media screen and (max-width:767){
+  body{
+    width: 100%;
+  }
+    .navbar-nav{
+        text-align: center;
+}
+.carousel-caption{
+    bottom: 125px;
+}
+.carousel-caption h3{
+    
+    font-size: 17px;
+}
+
+.carousel-caption a{
+    padding: 10px 15px;
+   
+}
+.carousel-caption p{
+    width: 100px;
+    line-height: 1.6;
+    font-size: 12px;
+}
+.asas{
+  background-color: bisque;
+}
+.asas .container {
+  padding-top: 50px;
+}
+.card{
+  margin-bottom: 30px;
+ 
+}
+
+}
